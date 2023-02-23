@@ -23,12 +23,12 @@ namespace Localization.Demo.WebAPI.Controllers
         public IActionResult GetUsingPostsControllerResource()
         {
             var goodbye = stringLocalizer["Goodbye"];
-            var welcome = stringLocalizer["Welcome to Dotnet World"];
+            var goodNight = stringLocalizer["Good Night"];
             var hello = stringLocalizer["Hello"];
 
             var responseType = "Controller Resource Structure";
 
-            return Ok(new { goodbye = goodbye.Value, welcome = welcome.Value, hello= hello.Value, responseType=responseType });
+            return Ok(new { goodbye = goodbye.Value, goodNight = goodNight.Value, hello= hello.Value, responseType=responseType });
         }
 
         [HttpGet]
@@ -36,11 +36,11 @@ namespace Localization.Demo.WebAPI.Controllers
         public IActionResult GetUsingSharedResource()
         {
             var goodbye = sharedResourceLocalizer["Goodbye"];
-            var welcome = sharedResourceLocalizer["Welcome to Dotnet World"];
+            var goodNight = sharedResourceLocalizer["Good Night"];
             var hello = sharedResourceLocalizer["Hello"];
             var responseType = "Shared Resource Structure";
 
-            return Ok(new { goodbye = goodbye.Value, welcome = welcome.Value, hello = hello.Value, responseType=responseType });
+            return Ok(new { goodbye = goodbye.Value, goodNight = goodNight.Value, hello = hello.Value, responseType=responseType });
         }
     }
 }

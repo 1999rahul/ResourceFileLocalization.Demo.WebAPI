@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Good Night" xml:space="preserve">
+    <value>शुभ रात्रि</value>
+  </data>
   <data name="Goodbye" xml:space="preserve">
     <value>अलविदा</value>
   </data>
   <data name="Hello" xml:space="preserve">
     <value>नमस्ते</value>
-  </data>
-  <data name="Welcome to Dotnet World" xml:space="preserve">
-    <value>डॉट नेट की दुनिया में आपका स्वागत है।</value>
   </data>
 </root>
